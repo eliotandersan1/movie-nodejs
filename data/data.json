@@ -1,0 +1,34 @@
+{
+  "actors":[{
+    "id":1,
+    "name": "Tom Cruise",
+    "movie":"Mission impossible",
+    "quotes": "I disagree with people who think you learn more from getting beat up than you do from winning.",
+    "images":"/images/actors/tomcruise.jpg",
+    "movies":["/images/actors/jackracher.jpg","/images/actors/minorityTom.jpeg","/images/actors/mission.jpg"],
+    "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+  },
+    {
+      "id":2,
+      "name": "Lional Decaprio",
+      "movie":"Titanic",
+      "quotes": "If you can do what you do best and be happy, you're further along in life than most people.",
+      "images":"/images/actors/decaprio.jpg",
+      "movies":["/images/actors/inception.jpeg","/images/actors/shutterisland.jpg","/images/actors/titanic.jpg","/images/actors/wolf.png"],
+      "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+
+
+    },
+    {
+      "id":3,
+      "name": "Robert John Downey Jr.",
+      "movie":"Iron Man",
+      "quotes": " think you end up doing the stuff you were supposed to do at the time you were supposed to do it.",
+      "images":"/images/actors/Robertjr.jpg",
+      "movies":["/images/actors/sherlockhomes.jpg","/images/actors/ironman.jpeg","/images/actors/avengers.jpg"],
+      "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+
+    }
+
+  ]
+}

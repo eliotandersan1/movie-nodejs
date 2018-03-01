@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        header{
+            margin-left: -20px;
+            margin-right: -20px;
+            margin-bottom: 0px;
+        }
+    </style>
+
+</head>
+<body onload="myFunction()">
+{{page}}
+
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+
+        </div>
+    </div>
+</div>
+     {{> header}}
+{{> actorslist}}
+
+
+<div class="container">
+ <div class="row">
+{{>popularMovies}}
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+

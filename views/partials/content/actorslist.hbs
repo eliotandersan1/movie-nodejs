@@ -1,0 +1,20 @@
+<article class="jumbotron-fluid">
+<div class="container">
+    <div class="row">
+        {{# each actors}}
+            {{# each this}}
+
+            <div class="col-sm-8">
+
+                <img src="{{this.images}}" class="img-circle" width="190vh" height="190vh">
+                <h1>Actor:{{this.name}}</h1>
+                <p class="text-right" >{{this.details}}</p>
+
+
+
+            {{/each}}
+
+        {{/each}}
+    </div>
+    </div>
+</article>

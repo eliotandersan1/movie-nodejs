@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <style>
+        #navbar{
+
+            background-color: #f1f1f1;
+        }
+    </style>
+
+</head>
+<body>
+<header class="clearfix" style="height: 50vh;background: url('images/intro.jpeg') no-repeat center center;background-size: cover; margin-bottom: 20px">
+</header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="nav nav-pills flex-column flex-md-row" id="navbar">
+                <a class="nav-item nav-link active" href="/">Home</a>
+                <a class="nav-item nav-link"  href="/actors">actors</a>
+                <a class="nav-item nav-link"  href="/feedback">feedback</a>
+                <a class="nav-item nav-link"  href="/chat">chat</a>
+
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="/actors" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Actors
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        {{# each actors}}
+                            {{# each this}}
+                                <a class="dropdown-item" href="actors/{{this.id}}">{{this.name}}</a>
+                            {{/each}}
+
+                        {{/each}}
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
